@@ -10,6 +10,23 @@
   <script src="js/main.js" defer></script>
 </head>
 <body>
+  <div id="overlay-el"></div>
+  <div id="mobile-menu" class="mobile-menu">
+    <ul>
+      <li><a href="#">Mission</a></li>
+      <li><a href="#">Launches</a></li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">Updates</a></li>
+      <li><a href="#">Shop</a></li>
+      <li class="mobile-only"><a href="flacon.html">Falcon 9</a></li>
+      <li class="mobile-only"><a href="falcon-heavy.html">Falcon Heavy</a></li>
+      <li class="mobile-only"><a href="dragon.html">Dragon</a></li>
+      <li class="mobile-only"><a href="#">Starship</a></li>
+      <li class="mobile-only"><a href="#">Human Spaceflight</a></li>
+      <li class="mobile-only"><a href="#">Ride Share</a></li>
+      <li class="mobile-only"><a href="#">Starlink</a></li>
+    </ul>
+  </div>
   <header>
     <div class="header-container">
       <div>
@@ -25,12 +42,18 @@
           <li><a href="#">Starship</a></li>
           <li><a href="#">Human Spaceflight</a></li>
           <li><a href="#">Ride Share</a></li>
+          <li><a href="#">Starlink</a></li>
           <li><a href="#">Shop</a></li>
         </ul>
       </nav>
     </div>
-
-    <section class="hero-section-1">
+  </header>
+  <button class="hamburger" type="button" id="menu-btn">
+    <span class="hamburger-top"></span>
+    <span class="hamburger-middle"></span>
+    <span class="hamburger-bottom"></span>
+  </button>
+  <section class="hero-section-1">
       <div class="hero-content">
         <h4>Upcoming Launch</h4>
         <h2>CRS-25 Mission</h2>
