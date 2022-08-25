@@ -1,0 +1,61 @@
+/* Falcon 9 Styles */
+.section-bg-falcon9 {
+  background: url(../img/falcon-9.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.section-inner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-inner-content h3 {
+  font-size: 100px;
+  margin-bottom: 15px;
+  animation: fadeInUp 0.5s ease-in-out both;
+}
+
+.section-inner-content p {
+  font-size: 20px;
+  animation: fadeInUp 0.5s ease-in-out 0.2s both;
+}
+
+.section-animate {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.stats {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.stats span {
+  font-size: 160px;
+}
+
+.stats h4 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
