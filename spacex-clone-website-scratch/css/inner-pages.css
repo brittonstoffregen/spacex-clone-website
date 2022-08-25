@@ -1,6 +1,17 @@
 /* Falcon 9 Styles */
 .section-bg-falcon9 {
   background: url(../img/falcon-9.webp);
+}
+
+.section-bg-falcon-heavy {
+  background: url(../img/falcon-heavy.webp);
+}
+
+.section-bg-dragon {
+  background: url(../img/dragon.webp);
+}
+
+.section-bg {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,6 +25,7 @@
   transform: translate(-50%, -50%);
   text-align: center;
   text-transform: uppercase;
+  width: 80%;
 }
 
 .section-inner-content h3 {
@@ -58,9 +70,6 @@
 }
 
 @media(max-width: 600px) {
-  .section-inner-content {
-    width: 80%;
-  }
   
   .section-inner-content h3 {
     font-size: 50px;

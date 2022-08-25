@@ -1,0 +1,2 @@
+Go back and add javascript to stats section once you
+understand javascript better.
