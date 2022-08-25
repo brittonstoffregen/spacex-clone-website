@@ -50,6 +50,33 @@
   font-weight: 300;
 }
 
+/*Media Queries */
+@media(max-width: 960px) {
+  .section-inner-content h3 {
+    font-size: 75px;
+  }
+}
+
+@media(max-width: 600px) {
+  .section-inner-content {
+    width: 80%;
+  }
+  
+  .section-inner-content h3 {
+    font-size: 50px;
+  }
+
+  .stats {
+    flex-direction: column;
+  }
+
+  .stats div {
+    margin-bottom: 20px;
+  }
+}
+
+/* Animations */
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
