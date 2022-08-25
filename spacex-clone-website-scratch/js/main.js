@@ -8,4 +8,5 @@ function toggleHamburgerMenu() {
   hamburgerBtn.classList.toggle('open')
   overlay.classList.toggle('overlay-show')
   mobileMenu.classList.toggle('open-menu')
+  document.body.classList.toggle('stop-scrolling')
 }
